@@ -2,20 +2,20 @@
 
 ## Direction
 
-Editorial precision meets technical systems: deep ink surfaces, electric-cyan signals, warm ivory type, strong grid lines, restrained glow, and purposeful motion. Avoid the generic purple-gradient AI template aesthetic.
+Quiet editorial luxury meets practical digital systems: warm ivory surfaces, deep forest-green signals, soft sage panels, natural photography, strong typography, and generous space. Avoid harsh dark interfaces and generic purple-gradient AI templates.
 
 ## Tokens
 
-- Background: `#07110f`; elevated: `#0d1b18`; paper: `#f3f0e8`
-- Text on dark: `#f4f5ef`; muted: `#a8b6b0`
-- Signal: `#79f2cf`; signal-dark: `#123f35`; warm accent: `#f3c969`
-- Display: system grotesk stack; body: highly legible system sans
-- Radius: 18–28px for major surfaces, 999px for pills
+- Background: `#f7f5ee`; paper: `#fffdf8`; sage: `#dce6dc`
+- Ink: `#17332c`; body: `#3f514b`; muted: `#6c7b75`
+- Signal: `#154f43`; signal-hover: `#0f3f36`; warm rule: `#d7d1c5`
+- Display: Playfair Display; body and UI: DM Sans
+- Radius: 0–18px for editorial surfaces, 999px for pills
 - Minimum body size: 16px; touch targets: at least 44px
 
 ## Composition
 
-Use a mobile-first modular grid, asymmetric hero, visible service index, large typographic statements, fine technical rules, and a persistent but unobtrusive WhatsApp action. Motion is limited to entrance reveals, a slow ambient field, hover feedback, and a process-line progression. Honor `prefers-reduced-motion`.
+Use a mobile-first editorial grid, asymmetric hero, visible service index, large serif statements, fine rules, natural imagery, and a prominent but calm WhatsApp action. Keep motion minimal and honor `prefers-reduced-motion`.
 
 ## Voice
 
