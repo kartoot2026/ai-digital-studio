@@ -1,5 +1,15 @@
 # Deploy to Cloudflare Pages Free
 
+## Deployment status — 2026-10-02
+
+- Production project: `arbisoft`
+- Production branch: `main`
+- Live Pages URL: `https://arbisoft.pages.dev/`
+- Framework preset: **None**
+- Build command: blank (static deployment)
+- Build output directory: `/`
+- Custom domain: `arbisoft.biz` — Cloudflare zone created and Namecheap nameservers updated; activation is pending DNS propagation.
+
 ## Git-connected deployment
 
 1. Push this repository to `kartoot2026/ai-digital-studio` on the `main` branch.
@@ -9,8 +19,8 @@
 5. Framework preset: **None**.
 6. Build command: `exit 0` (or leave blank if the dashboard permits).
 7. Build output directory: `/`.
-8. Deploy and verify the generated `*.pages.dev` URL, including `/404` behavior, navigation, and WhatsApp links.
-9. Add the approved custom domain `arbisoft.biz`, follow Cloudflare’s DNS prompts, and verify HTTPS.
+8. Deploy and verify the generated `*.pages.dev` URL, including `/404` behavior, navigation, and WhatsApp links. **Completed:** `https://arbisoft.pages.dev/`.
+9. Add the approved custom domain `arbisoft.biz`, follow Cloudflare’s DNS prompts, and verify HTTPS. **In progress:** nameservers are saved at Namecheap and awaiting propagation.
 
 Every push to the production branch can deploy automatically; non-production branches can receive preview deployments. See [Cloudflare’s static HTML guide](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/) and [GitHub integration guide](https://developers.cloudflare.com/pages/configuration/git-integration/github-integration/).
 

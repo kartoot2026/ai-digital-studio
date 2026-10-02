@@ -1,6 +1,6 @@
 # QA report
 
-Status: implementation and local QA complete; final owner-data substitution and live deployment remain.
+Status: implementation, local QA, and Cloudflare Pages production verification complete. Custom-domain DNS activation and final legal data remain.
 
 ## Acceptance checklist
 
@@ -18,7 +18,8 @@ Status: implementation and local QA complete; final owner-data substitution and 
 - [x] Owner-approved brand and domain inserted
 - [ ] Owner-approved email/legal data inserted
 - [ ] Policies reviewed for the applicable jurisdiction
-- [ ] Live Cloudflare URL and custom domain verified
+- [x] Live Cloudflare Pages URL verified
+- [ ] Custom domain verified after DNS propagation
 
 ## Verification record
 
@@ -33,3 +34,5 @@ Verified on 2026-10-02:
 - Source scan found no API keys, account credentials, client records, testimonials, or invented legal identity.
 - Progressive enhancement was corrected so content remains visible when JavaScript is disabled.
 - Two original generated images were verified at mobile width: both load successfully, retain readable overlays, and introduce no horizontal overflow.
+- Cloudflare Pages deployment completed successfully at `https://arbisoft.pages.dev/`; the live document title, ARBISOFT branding, four services, images, navigation, and WhatsApp links were verified from the public deployment.
+- Namecheap nameservers were changed to `dorthy.ns.cloudflare.com` and `sterling.ns.cloudflare.com`; Cloudflare reported that DNS propagation was still pending at the time of this report.
