@@ -23,5 +23,5 @@ The static experience must include Home, Services, Process, About, Contact, Priv
 
 ## Unknown owner data
 
-Approved public contact details: brand **ARBISOFT**, domain `arbisoft.biz`, and WhatsApp `+212 661 487 396`. Email, legal entity, jurisdiction, registered address, and tax details are not yet approved. Do not fabricate them. Legal copy is a launch draft and must explicitly require owner review before publication.
+Approved public details: brand **ARBISOFT**, legal entity **AK DIGITAL MARKETING LLC**, principal **AHMED SALEM KRITA**, jurisdiction **Wyoming, United States**, domain `arbisoft.biz`, email `support@arbisoft.biz`, and WhatsApp `+212 661 487 396`. Registered address and tax details are not approved for public display. Do not fabricate or expose them. Legal copy remains subject to owner and professional review.
 

@@ -16,10 +16,11 @@ Status: implementation, local QA, and Cloudflare Pages production verification c
 - [x] Core content remains accessible without JavaScript
 - [x] Owner-approved WhatsApp number inserted
 - [x] Owner-approved brand and domain inserted
-- [x] Owner-approved team names inserted without invented roles or biographies
+- [x] Owner identity and CEO role verified against the company formation document
 - [x] New natural-looking service, collaboration, and workspace imagery added
 - [x] Owner-approved support email inserted
-- [ ] Owner-approved legal identity, address, and jurisdiction inserted
+- [x] Legal entity and jurisdiction inserted from the owner-provided formation document
+- [ ] Owner-approved business address inserted
 - [ ] Policies reviewed for the applicable jurisdiction
 - [x] Live Cloudflare Pages URL verified
 - [ ] Custom domain verified after DNS propagation
