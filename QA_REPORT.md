@@ -28,7 +28,7 @@ Status: implementation, local QA, and Cloudflare Pages production verification c
 - [x] Public payment workflow aligned with Zoho Invoice
 - [x] Free technical SEO foundation: canonical URLs, sitemap, robots declaration, Open Graph data, and structured data
 - [x] Honest internal operational case study added without invented client claims or metrics
-- [x] Free Cloudflare Web Analytics site created and official beacon installed on every public HTML page
+- [x] Free Cloudflare Web Analytics confirmed through Cloudflare Pages automatic injection
 
 ## Verification record
 
@@ -61,4 +61,4 @@ Verified on 2026-10-03:
 - `robots.txt` points to `https://arbisoft.biz/sitemap.xml`.
 - Each public information page has a canonical URL and unique meta description.
 - Stripe remains under review; no claim of active card processing is published.
-- Cloudflare Web Analytics was configured for `arbisoft.biz` with aggregate, non-advertising measurement.
+- Cloudflare Pages automatically injects one Web Analytics beacon for `arbisoft.biz`; a duplicate manual beacon was detected during QA and removed before final handoff.
