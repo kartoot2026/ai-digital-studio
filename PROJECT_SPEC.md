@@ -15,7 +15,7 @@ Trading, crypto services, hosted checkout, customer accounts, dashboards, databa
 
 ## Primary journey
 
-Every commercial path should lead to a prefilled WhatsApp conversation. After a genuine scope and price agreement, the owner creates the client and invoice/payment request in Bonsai and sends its link. Stripe can be connected in Bonsai for card payments where available. Wise, Payoneer, IBAN, and bank transfer are recorded as external/offline methods where Bonsai and the owner's accounts support them.
+Every commercial path should lead to a prefilled WhatsApp conversation. After a genuine scope and price agreement, the owner creates the client and invoice/payment request in Zoho Invoice and sends its link. Stripe can be connected in Zoho Invoice for card payments where available. Wise, Payoneer, IBAN, and bank transfer are recorded as external/offline methods where Zoho Invoice and the owner's accounts support them.
 
 ## Pages and content
 

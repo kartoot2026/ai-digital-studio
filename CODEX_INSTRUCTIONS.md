@@ -6,7 +6,7 @@
 4. Build the entire static V1, not only the hero or homepage.
 5. Use progressive enhancement, semantic HTML, accessible interactions, responsive layouts, and no runtime dependency.
 6. Keep all owner-specific facts configurable and never commit credentials.
-7. Document Bonsai, payments, Cloudflare Pages, owner operations, and QA in the requested docs.
+7. Document Zoho Invoice, payments, Cloudflare Pages, owner operations, and QA in the requested docs.
 8. Validate links, JavaScript syntax, responsive behavior, accessibility basics, metadata, performance-sensitive assets, and the final output.
 9. Commit in coherent stages and push when authenticated access exists. External account authorization remains owner-controlled.
 

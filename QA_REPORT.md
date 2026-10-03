@@ -1,13 +1,13 @@
 # QA report
 
-Status: implementation, local QA, and Cloudflare Pages production verification complete. Custom-domain DNS activation and final legal data remain.
+Status: implementation, local QA, and Cloudflare Pages production verification complete. The custom domain is live; Stripe review, sender-email verification, and final legal review remain.
 
 ## Acceptance checklist
 
 - [x] Four approved services only
 - [x] WhatsApp is the primary conversion path
 - [x] No payment processor or payment form in the website
-- [x] Bonsai/external payment workflow documented
+- [x] Zoho Invoice/external payment workflow documented
 - [x] No invented testimonials, client logos, legal identity, or delivery evidence
 - [x] Responsive mobile-first layouts
 - [x] Semantic header, navigation, main, sections, footer, dialog, and native buttons
@@ -23,7 +23,11 @@ Status: implementation, local QA, and Cloudflare Pages production verification c
 - [ ] Owner-approved business address inserted
 - [ ] Policies reviewed for the applicable jurisdiction
 - [x] Live Cloudflare Pages URL verified
-- [ ] Custom domain verified after DNS propagation
+- [x] Custom domain verified at `https://arbisoft.biz/`
+- [x] Brand mark broadened from AI to A — ARBISOFT
+- [x] Public payment workflow aligned with Zoho Invoice
+- [x] Free technical SEO foundation: canonical URLs, sitemap, robots declaration, Open Graph data, and structured data
+- [x] Honest internal operational case study added without invented client claims or metrics
 
 ## Verification record
 
@@ -46,3 +50,13 @@ Verified on 2026-10-02:
 - Visual comparison against the approved redesign reference passed with no critical, major, or moderate discrepancies. See `design-qa.md`.
 - Cloudflare Pages deployment completed successfully at `https://arbisoft.pages.dev/`; the live document title, ARBISOFT branding, four services, images, navigation, and WhatsApp links were verified from the public deployment.
 - Namecheap nameservers were changed to `dorthy.ns.cloudflare.com` and `sterling.ns.cloudflare.com`; Cloudflare reported that DNS propagation was still pending at the time of this report.
+
+Verified on 2026-10-03:
+
+- Production domain `https://arbisoft.biz/` loads with the A — ARBISOFT mark.
+- Updated broad positioning, service titles, Zoho Invoice workflow, and internal case study render correctly.
+- Desktop viewport and 390×844 mobile viewport passed visual inspection with no horizontal overflow.
+- JavaScript syntax and `git diff --check` passed.
+- `robots.txt` points to `https://arbisoft.biz/sitemap.xml`.
+- Each public information page has a canonical URL and unique meta description.
+- Stripe remains under review; no claim of active card processing is published.

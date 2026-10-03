@@ -4,7 +4,7 @@
 
 - Install the five source-of-truth documents at repository root.
 - Initialize Git, set the GitHub origin, commit, and push when authentication allows.
-- Research modern studio patterns, open-source interaction libraries, static deployment, and the Bonsai payment workflow.
+- Research modern studio patterns, open-source interaction libraries, static deployment, and the Zoho Invoice payment workflow.
 
 ## Phase 2 — Experience
 

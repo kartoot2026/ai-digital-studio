@@ -1,20 +1,31 @@
-# Bonsai setup
+# Zoho Invoice setup
 
-Complete these steps in the owner-controlled Bonsai account. Product availability, fees, and menu labels can change; verify them in the account before launch.
+> The filename is retained for compatibility with the original project specification. Bonsai was not used because account access was blocked; Zoho Invoice is the approved operational system.
 
-1. Add the approved legal business identity, address, tax details, logo, and default currency. Do not use the working brand as a legal name unless it is genuinely registered or permitted.
-2. Configure invoice numbering, due dates, reminder behavior, and the default message.
-3. Create one service template for each approved service category, with scope-specific line items rather than vague bundles.
-4. Review the Client Portal visibility settings and preview the portal as a client before enabling it.
-5. In invoice payment settings, enable only the online methods actually available in the owner's country/account.
-6. If Stripe is supported and desired, connect it through Bonsai and verify the resulting fee schedule before issuing a live invoice.
-7. Enable “other” payment instructions only for methods the owner can receive legally and operationally. Add Wise, Payoneer, IBAN, or bank details in Bonsai—not in the public repository or website.
-8. Create a test client and draft invoice, inspect the client-facing link, then delete or archive the test record.
+## Current configuration
 
-Official operational references:
+- Organization: AK DIGITAL MARKETING LLC (ARBISOFT)
+- Brand: ARBISOFT
+- Default currency: USD
+- Invoice theme: light layout with ARBISOFT green accent
+- Logo: A — ARBISOFT
+- Terms, customer note, and payment thank-you message configured
+- Automated reminders enabled for 1, 7, and 14 days overdue
+- Stripe connected with cards and Apple Pay selected
+- Live card processing remains unavailable until Stripe completes its review
 
-- [Bonsai account setup](https://help.hellobonsai.com/en/articles/5588945-how-to-get-started-with-bonsai-and-set-up-your-account)
-- [Invoice URL sharing](https://help.hellobonsai.com/en/articles/1866816-sending-invoices-via-url)
-- [Offline payment instructions](https://help.hellobonsai.com/en/articles/1195676-adding-custom-offline-payment-instructions-to-invoices)
-- [Online methods and fees](https://help.hellobonsai.com/en/articles/452273-understanding-online-payment-methods-and-fees-at-bonsai)
+## Remaining owner-controlled steps
 
+1. Add and verify `support@arbisoft.biz` as an approved sender.
+2. Configure the Customer Portal welcome message and invite clients individually.
+3. Create one real client only after scope and consent are established.
+4. Enable Stripe on an invoice only after Stripe approves the account.
+5. Record Wise, Payoneer, IBAN, or bank transfers as external payments after funds clear.
+6. Never collect card or bank credentials through WhatsApp, email, or this repository.
+
+Official references:
+
+- [Zoho Invoice customer portal](https://www.zoho.com/in/invoice/help/customer-portal/)
+- [Zoho Invoice reminders](https://www.zoho.com/in/invoice/help/settings/reminders.html)
+- [Zoho Invoice and Stripe](https://www.zoho.com/us/invoice/help/online-payments/stripe.html)
+- [Zoho Invoice payment links](https://www.zoho.com/in/invoice/help/payment-links/receiving-payments.html)
